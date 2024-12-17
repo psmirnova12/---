@@ -1,0 +1,625 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/page10.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Версия для слабовидящих <svg xmlns="http://www.w3.org/2000/svg"
+                        width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                            d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
+                    </svg></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M2,4A1,1,0,0,1,3,3H21a1,1,0,0,1,0,2H3A1,1,0,0,1,2,4Zm1,9H21a1,1,0,0,0,0-2H3a1,1,0,0,0,0,2Zm0,8H21a1,1,0,0,0,0-2H3a1,1,0,0,0,0,2Z" />
+                        </svg></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Информация</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close">
+                            <?xml version="1.0" encoding="iso-8859-1"?>
+                            <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                            <!DOCTYPE svg
+                                PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18px" height="18px"
+                                viewBox="0 0 612.043 612.043" style="enable-background:new 0 0 18 18;"
+                                xml:space="preserve">
+                                <g>
+                                    <g id="cross">
+                                        <g>
+                                            <path
+                                                d="M397.503,306.011l195.577-195.577c25.27-25.269,25.27-66.213,0-91.482c-25.269-25.269-66.213-25.269-91.481,0
+                                            L306.022,214.551L110.445,18.974c-25.269-25.269-66.213-25.269-91.482,0s-25.269,66.213,0,91.482L214.54,306.033L18.963,501.61
+                                            c-25.269,25.269-25.269,66.213,0,91.481c25.269,25.27,66.213,25.27,91.482,0l195.577-195.576l195.577,195.576
+                                            c25.269,25.27,66.213,25.27,91.481,0c25.27-25.269,25.27-66.213,0-91.481L397.503,306.011z" />
+                                        </g>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+                            <li class="nav-item dropdown">
+
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Главная
+                                </a>
+
+
+                                <ul class="dropdown-menu dropdown-menu-dark">
+
+                                    <li><a class="dropdown-item" href="./index.html">Главная</a></li>
+                                    <li><a class="dropdown-item" href="./page22.html">Историческая справка</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Сведения об образовательной организации
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item a" href="">Основные сведения</a></li>
+                                    <li><a class="dropdown-item a" href="#">Структура и органы управления <br>
+                                            образовательной
+                                            организаией</a></li>
+                                    <li><a class="dropdown-item a" href="#">Документы</a></li>
+                                    <li><a class="dropdown-item a" href="#">Образование</a></li>
+                                    <li><a class="dropdown-item a" href="#">Образовательные стандарты <br> и
+                                            требования</a>
+                                    </li>
+                                    <li><a class="dropdown-item a" href="#">Руководство</a></li>
+                                    <li><a class="dropdown-item a" href="#">Педагогический состав</a></li>
+                                    <li><a class="dropdown-item a" href="#">Материально-техническое обеспечение <br> и
+                                            оснащенность образовательного <br>
+                                            процесса. Доступная среда</a></li>
+                                    <li><a class="dropdown-item a" href="">Платные образовательные услуги</a>
+                                    </li>
+                                    <li><a class="dropdown-item a" href="#">Финансово-хозяйственная <br>
+                                            деятельность</a>
+                                    </li>
+                                    <li><a class="dropdown-item a" href="#">Вакантные места для приема(перевода) <br>
+                                            обучающихся</a></li>
+                                    <li><a class="dropdown-item a" href="#">Стипендии и меры поддержки <br>
+                                            обучающихся</a>
+                                    </li>
+                                    <li><a class="dropdown-item a" href="#">Международное сотрудничество</a></li>
+                                    <li><a class="dropdown-item a" href="#">Организация питания в <br> образовательной
+                                            организации</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://edu.gounn.ru/">Электронный дневник</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://vk.com/izschool">Группа в VK</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./page3.html" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Обучающимся
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item a" href="./page3.html">ФГИС "МОЯ ШКОЛА"</a></li>
+                                    <li><a class="dropdown-item a" href="./page4.html">Техника
+                                            безопасности(обучающиеся)</a></li>
+                                    <li><a class="dropdown-item a" href="./page5.html">Школьный спортивный клуб</a></li>
+                                    <li><a class="dropdown-item a" href="./page6.html">Готов к труду и обороне</a></li>
+                                    <li><a class="dropdown-item a" href="./page7.html">Памятные даты военной истории
+                                            России</a>
+                                    </li>
+                                    <li><a class="dropdown-item a" href="./page8.html">Профориентация</a></li>
+                                    <li><a class="dropdown-item a" href="./page9.html">Школьная служба медиации</a></li>
+                                    <li><a class="dropdown-item a" href="./page10.html">Телефоны доверия</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Родителям
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Страница будущего первоклассника</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Сотрудникам
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Должностные инструкции</a></li>
+                                    <li><a class="dropdown-item" href="#">Аттестация педагогических и руководящих <br>
+                                            работников</a></li>
+                                    <li><a class="dropdown-item" href="#">Профсоюз</a></li>
+                                    <li><a class="dropdown-item" href="#">Отдел профсоюза работников <br> образования
+                                            городского округа</a></li>
+                                    <li><a class="dropdown-item" href="#">Отдел по методическому сопровождению</a></li>
+                                    <li><a class="dropdown-item" href="#">Снижение бюрократической нагрузки</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Администрация школы
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">НСОТ</a></li>
+                                    <li><a class="dropdown-item" href="#">Независимая оценка качества <br>
+                                            образовательных услуг</a></li>
+                                    <li><a class="dropdown-item" href="#">Обратная связь</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Условия приема</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Государстенная итоговая аттестация
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">ГИА-9</a></li>
+                                    <li><a class="dropdown-item" href="#">ГИА-11</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Центр "Точка роста"
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Документы</a></li>
+                                    <li><a class="dropdown-item" href="#">Образовательные программы</a></li>
+                                    <li><a class="dropdown-item" href="#">Педагоги</a></li>
+                                    <li><a class="dropdown-item" href="#">Материально-техническая база</a></li>
+                                    <li><a class="dropdown-item" href="#">Режим занятий</a></li>
+                                    <li><a class="dropdown-item" href="#">Мероприятия</a></li>
+                                    <li><a class="dropdown-item" href="#">Дополнительная информация</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Цифровая образовательная среда
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Режим занятий</a></li>
+                                    <li><a class="dropdown-item" href="#">Документы</a></li>
+                                    <li><a class="dropdown-item" href="#">Образовательные программы</a></li>
+                                    <li><a class="dropdown-item" href="#">Материально-техническая база</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Навигаторы детства 2.0
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Состав команды по воспитанию в <br>
+                                            общеобразовательной организации</a></li>
+                                    <li><a class="dropdown-item" href="#">Лента актуальных новостей</a></li>
+                                    <li><a class="dropdown-item" href="#">Медиаархив</a></li>
+                                    <li><a class="dropdown-item" href="#">Методическая копилка</a></li>
+                                    <li><a class="dropdown-item" href="#">Полезные ссылки</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Безопасная дорога детям</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Образовательная деятельность
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">НОУ "Эрудит"</a></li>
+                                    <li><a class="dropdown-item" href="#">ОРКСЭ/ОДНКРН</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Организация отдыха, оздоровления и занятости
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Пришкольный лагерь "Родничок"</a></li>
+                                    <li><a class="dropdown-item" href="#">Пришкольный лагерь "Солнышко"</a></li>
+                                    <li><a class="dropdown-item" href="#">Летняя занятость обучающихся</a></li>
+                                    <li><a class="dropdown-item" href="#">Нормативные документы по организации <br>
+                                            отдыха, оздоровления и
+                                            занятости детей <br> и молодежи</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Наставничество</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Дополнительное образование
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Нормативная база по допобразованию</a></li>
+                                    <li><a class="dropdown-item" href="#">Навигатор дополнительного образования</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Организация горячего питания
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Ежедневное меню горячего питания</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Информационная безопасность
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Локальные нормативные акты в сфере <br>
+                                            обеспечения информационной <br>
+                                            безопасности обучающихся</a></li>
+                                    <li><a class="dropdown-item" href="#">Нормативное регулирование</a></li>
+                                    <li><a class="dropdown-item" href="#">Педагогическаим работникам</a></li>
+                                    <li><a class="dropdown-item" href="#">Обучающимся</a></li>
+                                    <li><a class="dropdown-item" href="#">Родителям</a></li>
+                                    <li><a class="dropdown-item" href="#">Детские безопасные сайты</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Противодействие коррупции
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Нормативные правовые и иные акты <br> в сфере
+                                            противодействия
+                                            коррупции</a></li>
+                                    <li><a class="dropdown-item" href="#">Антикоррупционная экспертиза</a></li>
+                                    <li><a class="dropdown-item" href="#">Методические материалы</a></li>
+                                    <li><a class="dropdown-item" href="#">Формы документов, связанных с <br>
+                                            противодействием
+                                            коррупции, для <br>
+                                            заполнения</a></li>
+                                    <li><a class="dropdown-item" href="#">Сведения о доходах, расходах, об <br>
+                                            имуществе и
+                                            обязательствах <br>
+                                            имущественного характера</a></li>
+                                    <li><a class="dropdown-item" href="#">Комиссия по соблюдению требований <br> к
+                                            служебному
+                                            поведению и <br>
+                                            урегулированию конфликта интересов <br> (аттестационная комиссия)</a></li>
+                                    <li><a class="dropdown-item" href="#">Обратная связь для сообщений о фактах <br>
+                                            коррупции</a></li>
+                                    <li><a class="dropdown-item" href="#">Меры юридической ответственности</a></li>
+                                    <li><a class="dropdown-item" href="#">Информационные материалы</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Охрана труда</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Школьный спортивный клуб</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Школьный театр</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Школьный музей
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Документы школьного музея</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Карта сайта</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
+                            <button class="btn btn-success" type="submit">Поиск</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+
+
+
+
+    <div class="main">
+        <div class="container">
+            <div class="foto">
+                <div class="logo">
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 419.7 149.29">
+                        <defs>
+                            <style>
+                                .cls-1,
+                                .cls-2,
+                                .cls-3,
+                                .cls-4 {
+                                    stroke: #312783;
+                                    stroke-miterlimit: 10;
+                                }
+
+                                .cls-1,
+                                .cls-2,
+                                .cls-5 {
+                                    fill: #312783;
+                                }
+
+                                .cls-2,
+                                .cls-3,
+                                .cls-4 {
+                                    stroke-width: 5px;
+                                }
+
+                                .cls-3 {
+                                    stroke-linecap: round;
+                                }
+
+                                .cls-3,
+                                .cls-4 {
+                                    fill: none;
+                                }
+
+                                .cls-5 {
+                                    stroke-width: 0px;
+                                }
+                            </style>
+                        </defs>
+                        <g id="_Слой_1-2" data-name="Слой 1">
+                            <ellipse class="cls-2" cx="209.48" cy="109.48" rx="5.19" ry="1.65" />
+                            <path class="cls-4"
+                                d="M209.85,107.6V21.27c0-.34.11-.64.37-.87,3.96-3.56,23.79-29.66,76.27-10.34,5.01,1.84.74,83.13-1.39,97.99-.14.96-1.25,1.37-1.97.72-4.01-3.61-15.24-12.22-31.77-13.1-11.07-.59-25.8.66-39.5,12.8-.79.7-2.02.2-2.02-.86Z" />
+                            <path class="cls-2"
+                                d="M282.67,109.58h-70.11c-1.1,0-1.7-1.32-.94-2.12,4.26-4.52,16.47-14.54,39.75-12.56,22.4,1.9,29.99,9.21,32.38,12.74.56.82-.08,1.94-1.08,1.94Z" />
+                            <path class="cls-3" d="M223.72,85.36s21.74-11.43,49.74-1.64" />
+                            <path class="cls-3" d="M223.01,67.81s21.74-11.43,49.74-1.64" />
+                            <path class="cls-3" d="M223.01,50.76s21.74-11.43,49.74-1.64" />
+                            <path class="cls-3" d="M223.01,33.71s21.74-11.43,49.74-1.64" />
+                            <path class="cls-4"
+                                d="M210.57,107.1V20.77c0-.34-.11-.64-.37-.87-3.96-3.56-23.79-29.66-76.27-10.34-5.01,1.84-.74,83.13,1.39,97.99.14.96,1.25,1.37,1.97.72,4.01-3.61,15.24-12.22,31.77-13.1,11.07-.59,25.8.66,39.5,12.8.79.7,2.02.2,2.02-.86Z" />
+                            <path class="cls-2"
+                                d="M137.74,109.08h70.11c1.1,0,1.7-1.32.94-2.12-4.26-4.52-16.47-14.54-39.75-12.56-22.4,1.9-29.99,9.21-32.38,12.74-.56.82.08,1.94,1.08,1.94Z" />
+                            <path class="cls-3" d="M196.7,84.86s-21.74-11.43-49.74-1.64" />
+                            <path class="cls-3" d="M197.41,67.31s-21.74-11.43-49.74-1.64" />
+                            <path class="cls-3" d="M197.41,50.26s-21.74-11.43-49.74-1.64" />
+                            <path class="cls-3" d="M197.41,33.21s-21.74-11.43-49.74-1.64" />
+                            <g>
+                                <path class="cls-5"
+                                    d="M0,120.53h4.05l-.03,12.58c0,1.02-.07,2.67-.23,3.76h.2l10.97-16.34h3.69v23.09h-4.09v-12.62c0-1.09.13-2.63.23-3.79h-.13l-10.97,16.4H0v-23.09Z" />
+                                <path class="cls-5"
+                                    d="M21.59,140.33c1.52,0,2.44-.2,2.83-1.88.85-3.46,1.05-6.92,1.32-10.44l.1-1.81h12.78v17.42h-3.85v-14.06h-5.24c-.1,1.48-.26,3.06-.46,4.68-.23,1.81-.53,3.56-.96,5.24-.96,3.39-3.03,4.15-6.26,4.15l-.26-3.29Z" />
+                                <path class="cls-5"
+                                    d="M42.89,126.2h3.89v5.86h4.22c3.33,0,6.19,2.21,6.23,5.73.07,3.72-2.96,5.83-6.39,5.83h-7.94v-17.42ZM51.06,140.33c1.45,0,2.31-1.05,2.31-2.47s-.89-2.5-2.37-2.5h-4.22v4.97h4.28Z" />
+                                <path class="cls-5"
+                                    d="M60.54,126.2h3.72v11.27l8.5-11.27h3.16v17.42h-3.72v-11.3l-8.43,11.3h-3.23v-17.42Z" />
+                                <path class="cls-5"
+                                    d="M80.19,126.2h3.86v6.88h7.74v-6.88h3.86v17.42h-3.86v-7.18h-7.74v7.18h-3.86v-17.42Z" />
+                                <path class="cls-5"
+                                    d="M99.25,134.93c0-5.33,3.72-8.86,8.93-8.86s9.02,3.56,9.02,8.89-3.85,8.79-9.02,8.79-8.93-3.49-8.93-8.83ZM113.31,134.96c0-3.23-1.88-5.53-5.14-5.53s-5.07,2.27-5.07,5.5,1.81,5.5,5.07,5.5,5.14-2.24,5.14-5.47Z" />
+                                <path class="cls-5" d="M120.15,132.23h8.14v2.96h-8.14v-2.96Z" />
+                                <path class="cls-5"
+                                    d="M129.43,141.78l1.88-3.16c1.55.89,3.33,1.52,5.34,1.52,3.46,0,5.2-1.75,5.14-3.86,0-1.97-1.52-3.19-4.51-3.19h-4.45v-3.56h4.31c1.78,0,3.52-.49,3.62-2.6.13-2.17-2.01-2.93-4.28-2.9-2.08,0-4.18.66-5.37,1.29l-1.55-3.19c2.11-1.12,4.74-1.71,7.11-1.71,3.79,0,8.23,1.71,8.14,6.23,0,1.68-.89,3.39-2.24,4.35,2.17,1.15,3.33,3.26,3.33,5.57,0,5.04-4.41,7.11-8.96,7.15-2.73,0-5.37-.69-7.51-1.91Z" />
+                                <path class="cls-5"
+                                    d="M157.68,125.9c1.58,0,3.42.36,4.81,1.25l.33-1.12h3.2v17.59h-3.2l-.33-1.15c-1.38.92-3.23,1.28-4.81,1.28-5.21,0-8.83-3.66-8.83-8.96s3.62-8.89,8.83-8.89ZM162.16,130.58c-1.02-1.05-3.03-1.52-4.58-1.45-2.67.06-4.88,1.88-4.88,5.66s2.21,5.63,4.88,5.73c1.55.03,3.56-.46,4.58-1.45v-8.5Z" />
+                                <path class="cls-5"
+                                    d="M179.51,143.75c-6.03,0-8.99-4.74-9.19-9.75-.2-6.52,2.07-11.4,9.91-12.98.63-.1,1.91-.33,1.94-1.32h3.86c-.07,3.66-2.44,4.09-5.24,4.65-3.69.79-5.66,1.98-6.49,4.05l.2.07c1.45-1.58,3.62-2.31,5.53-2.31,4.45,0,8.3,3.13,8.3,8.76,0,5.3-3.66,8.83-8.83,8.83ZM174.6,134.93c0,3.23,1.65,5.5,4.91,5.5s4.94-2.27,4.94-5.5-1.65-5.5-4.94-5.5-4.91,2.27-4.91,5.5Z" />
+                                <path class="cls-5"
+                                    d="M191.95,134.93c0-5.33,3.72-8.86,8.93-8.86s9.02,3.56,9.02,8.89-3.85,8.79-9.02,8.79-8.93-3.49-8.93-8.83ZM206.01,134.96c0-3.23-1.88-5.53-5.14-5.53s-5.07,2.27-5.07,5.5,1.81,5.5,5.07,5.5,5.14-2.24,5.14-5.47Z" />
+                                <path class="cls-5"
+                                    d="M213.51,126.2h3.06l.39,1.19c1.61-.86,3.3-1.32,5.14-1.32,5.3,0,8.53,3.56,8.53,8.86s-3.82,8.83-9.02,8.83c-1.45,0-2.9-.33-4.25-.96v6.49h-3.86v-23.09ZM226.75,134.93c0-3.69-2.08-5.37-4.51-5.47-1.65-.1-3.62.26-4.87,1.58v8.04c.99.99,2.7,1.32,4.25,1.32,3.33,0,5.14-2.27,5.14-5.47Z" />
+                                <path class="cls-5"
+                                    d="M233.59,134.93c.07-5.53,4.05-8.86,9.29-8.86,2.47-.03,4.28.46,6.06,1.52l-1.58,2.87c-1.32-.69-2.63-1.02-4.48-.99-3.36.07-5.37,2.04-5.43,5.47.06,3.39,2.07,5.4,5.43,5.47,1.85.03,3.1-.3,4.45-1.05l1.61,2.83c-1.88,1.18-3.59,1.61-6.06,1.61-5.24-.03-9.22-3.33-9.29-8.86Z" />
+                                <path class="cls-5"
+                                    d="M252.22,126.2h3.86v6.23h.96l5.66-6.23h4.74l-7.44,7.77,7.81,9.65h-4.74l-6.12-7.91h-.86v7.91h-3.86v-17.42Z" />
+                                <path class="cls-5"
+                                    d="M277.77,125.9c1.58,0,3.42.36,4.81,1.25l.33-1.12h3.2v17.59h-3.2l-.33-1.15c-1.38.92-3.23,1.28-4.81,1.28-5.21,0-8.83-3.66-8.83-8.96s3.62-8.89,8.83-8.89ZM282.25,130.58c-1.02-1.05-3.03-1.52-4.58-1.45-2.67.06-4.88,1.88-4.88,5.66s2.21,5.63,4.88,5.73c1.55.03,3.56-.46,4.58-1.45v-8.5Z" />
+                                <path class="cls-5"
+                                    d="M293.74,136.71c-2.31-.79-3.75-2.93-3.62-5.37.16-3.49,3-5.14,6.19-5.14h8.23v17.42h-3.89v-6.52h-2.7l-4.87,6.52h-4.51l5.17-6.92ZM300.65,133.81v-4.28h-4.71c-1.28,0-2.01.89-2.01,2.14s.76,2.14,2.04,2.14h4.68Z" />
+                                <path class="cls-5"
+                                    d="M317.04,126.2h3.86v14.13h6.75v-14.13h3.85v14.13h6.75v-14.13h3.89v17.42h-25.1v-17.42Z" />
+                                <path class="cls-5"
+                                    d="M346.41,126.2h3.86v6.23h.96l5.66-6.23h4.74l-7.44,7.77,7.81,9.65h-4.74l-6.13-7.91h-.85v7.91h-3.86v-17.42Z" />
+                                <path class="cls-5"
+                                    d="M363.13,134.93c0-5.33,3.72-8.86,8.93-8.86s9.02,3.56,9.02,8.89-3.85,8.79-9.02,8.79-8.93-3.49-8.93-8.83ZM377.2,134.96c0-3.23-1.88-5.53-5.14-5.53s-5.07,2.27-5.07,5.5,1.81,5.5,5.07,5.5,5.14-2.24,5.14-5.47Z" />
+                                <path class="cls-5"
+                                    d="M381.9,140.33c1.52,0,2.44-.2,2.83-1.88.85-3.46,1.05-6.92,1.32-10.44l.1-1.81h12.78v17.42h-3.85v-14.06h-5.24c-.1,1.48-.26,3.06-.46,4.68-.23,1.81-.53,3.56-.96,5.24-.96,3.39-3.03,4.15-6.26,4.15l-.26-3.29Z" />
+                                <path class="cls-5"
+                                    d="M411.36,125.9c1.58,0,3.42.36,4.81,1.25l.33-1.12h3.2v17.59h-3.2l-.33-1.15c-1.38.92-3.23,1.28-4.81,1.28-5.21,0-8.83-3.66-8.83-8.96s3.62-8.89,8.83-8.89ZM415.84,130.58c-1.02-1.05-3.03-1.52-4.58-1.45-2.67.06-4.88,1.88-4.88,5.66s2.21,5.63,4.88,5.73c1.55.03,3.56-.46,4.58-1.45v-8.5Z" />
+                            </g>
+                            <rect class="cls-5" x="302.64" y="57.92" width="3.8" height="52.4" rx=".09" ry=".09" />
+                            <polygon class="cls-1" points="302.64 110.31 304.54 114.24 306.44 110.31 302.64 110.31" />
+                            <rect class="cls-1" x="314.49" y="44.66" width="7.59" height="66.82" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="helpline">
+        <div class="container">
+            <div class="heading">
+                <h2>Телефоны доверия</h2>
+            </div>
+            <div class="link">
+                <div class="link1">
+                    <a href="">EXIT, реабилитационный центр для зависимых от наркотиков и алкоголя г. Н. Новгород</a>
+                    <p>(831) 413-40-42</p>
+                </div>
+                <div class="link">
+                    <a href="">Арбитражный суд Нижегородской области, телефон доверия г. Н. Новгород</a>
+                    <p>(831) 439-12-33</p>
+                </div>
+                <div class="link">
+                    <a href="">Главное управление МВД РФ по Приволжскому федеральному округу, телефон доверия г. Н.
+                        Новгород</a>
+                    <p>8(831) 268-68-68</p>
+                </div>
+                <div class="link">
+                    <a href="">Главное управление МЧС России по Нижегородской области, телефон доверия г. Н.
+                        Новгород</a>
+                    <p>8 (831) 439-99-99</p>
+                </div>
+                <div class="link">
+                    <a href="">Единый детский телефон доверия г. Н. Новгород</a>
+                    <p>8-800-200-01-22</p>
+                </div>
+                <div class="link">
+                    <a href="">Журавушка, областной центр социальной помощи семье и детям, ГУ, телефон доверия г. Н.
+                        Новгород</a>
+                    <p>(831) 468-38-38 / (831) 417-54-53</p>
+                </div>
+                <div class="link">
+                    <a href="">Межрегиональная инспекция ФНС России по Приволжскому федеральному округу, телефон доверия
+                        г. Н. Новгород</a>
+                    <p>(831) 416‒22‒19</p>
+                </div>
+                <div class="link">
+                    <a href="">Молодежный телефон доверия г. Н. Новгород</a>
+                    <p>(831) 433-09-69</p>
+                </div>
+                <div class="link">
+                    <a href="">Нижегородская епархия Русской Православной Церкви (Московского патриархата), православный
+                        телефон доверия г. Н. Новгород</a>
+                    <p>(831) 246-69-91</p>
+                </div>
+                <div class="link">
+                    <a href="">Областной центр по профилактике и борьбе со СПИДом и инфекционными заболеваниями, ГУ,
+                        телефон доверия г. Н. Новгород</a>
+                    <p>(831)214-0-214</p>
+                </div>
+                <div class="link">
+                    <a href="">Социально-реабилитационный центр для несовершеннолетних
+
+                        "Солнышко" (Ленинский район), телефон доверия г. Н. Новгород</a>
+                    <p>(831) 244-17-49</p>
+                </div>
+                <div class="link">
+                    <a href="">Телефон прямой линии для призывников и их родителей г. Н. Новгород</a>
+                    <p>(831) 433-16-56</p>
+                </div>
+                <div class="link">
+                    <a href="">УГИБДД Нижегородской области, телефон доверия г. Н. Новгород</a>
+                    <p>(831) 242-13-70</p>
+                </div>
+                <div class="link">
+                    <a href="">Управление Федеральной миграционной службы России по Нижегородской области, телефон
+                        доверия г. Н. Новгород</a>
+                    <p>(831) 296-60-60</p>
+                </div>
+                <div class="link">
+                    <a href="">Управление Федеральной службы РФ по контролю за оборотом наркотиков по Нижегородской
+                        области, телефон доверия г. Н. Новгород</a>
+                    <p>(831) 421-05-48</p>
+                </div>
+                <div class="link">
+                    <a href="">Управление Федеральной службы судебных приставов по Нижегородской области, телефон
+                        доверия г. Н. Новгород</a>
+                    <p>(831) 225-80-87</p>
+                </div>
+                <div class="text">
+                    <h3>Телефоны доверия и службы по защите прав детей
+
+                        в городском округе Семеновский</h3>
+                </div>
+                <div class="link">
+                    <a href="">КДН и ЗП администрации городского округа Семеновский
+
+                        РАЗИНА А.А.</a>
+                    <p>(83162) 5-27-97</p>
+                </div>
+                <div class="link">
+                    <a href="">Специалисты по охране прав детей
+
+                        управления образования администрации городского округа Семёновский</a>
+                    <p>(83162) 5-10-70</p>
+                </div>
+                <div class="link">
+                    <a href="">Прокуратура городского округа Семеновский</a>
+                    <p>(83162) 5-28-85 / (83162) 5-20-83</p>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <footer>
+            <div class="foot">
+                <div class="container">
+                    <div class="logo">
+                        <img src="./img/Ресурс 2@300x.png" alt="">
+                    </div>
+                    <div class="text">
+                        <p>Тел/факс: 8 (831-62) 33-2-56 <br>
+                            Учительская: тел 8(831-62) 33-2-57</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </footer>
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

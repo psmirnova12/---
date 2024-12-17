@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 173.38 85.71">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-2 {
+        stroke-width: .75px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-3 {
+        font-family: AAStetica-Medium, 'AA Stetica';
+        font-size: 13.43px;
+        font-weight: 500;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <g id="_Слой_1-2" data-name="Слой 1">
+    <text class="cls-3" transform="translate(0 82.9)"><tspan class="cls-6" x="0" y="0">Ильино</tspan><tspan class="cls-8" x="49.13" y="0">-</tspan><tspan class="cls-9" x="53.04" y="0">Заборс</tspan><tspan class="cls-7" x="102.17" y="0">к</tspan><tspan class="cls-6" x="109.18" y="0">ая ш</tspan><tspan class="cls-5" x="140.19" y="0">к</tspan><tspan class="cls-1" x="147.2" y="0">о</tspan><tspan class="cls-6" x="155.38" y="0">ла</tspan></text>
+    <path class="cls-2" d="M100.67,46.68l-11.56,11.58v-29.75c0-.67-.27-1.26-.71-1.7s-1.04-.71-1.7-.71c-1.33,0-2.42,1.08-2.42,2.41v29.73l-11.56-11.56c-4.9-4.9-4.9-12.84,0-17.73l13.99-13.99,13.97,13.99c4.9,4.89,4.9,12.83,0,17.73Z"/>
+    <path class="cls-4" d="M91.24,67.22l21.16-21.17c4.64-4.64,4.64-12.16,0-16.8L86.69,3.54l-25.71,25.71c-4.64,4.63-4.64,12.15,0,16.8l20.52,21.17"/>
+  </g>
+</svg>
