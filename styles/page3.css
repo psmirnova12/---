@@ -1,5 +1,6 @@
 @import url("../font.css");
-*{
+
+* {
     font-family: "stet";
     margin: 0;
     padding: 0;
@@ -8,75 +9,76 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-p{
+
+p {
     font-family: 'stet';
     font-size: 30px;
 }
 
-.container{
+.container {
     width: 1200px;
     margin: 0 auto;
 }
 
-nav a{
+nav a {
     font-size: 15px !important;
 }
 
-nav .offcanvas-body a{
+nav .offcanvas-body a {
     font-size: 15px !important;
     color: white;
 }
 
-nav svg{
+nav svg {
     fill: white;
     margin-left: 2%;
 }
 
-.navbar .container button{
-    fill: white ;
+.navbar .container button {
+    fill: white;
     border: 1px solid white;
     color: white;
     background: none;
     display: flex;
 
-    
+
 }
 
 .navbar .container button svg {
-    fill: white ;
+    fill: white;
 
-    
+
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     background-image: none;
 }
 
-.offcanvas-body{
+.offcanvas-body {
     background-color: #312783 !important;
 }
 
-.offcanvas-header{
+.offcanvas-header {
     background-color: #312783 !important;
 }
 
-.bg-dark{
+.bg-dark {
     background-color: #312783 !important;
 }
 
-.navbar-nav .dropdown-menu{
+.navbar-nav .dropdown-menu {
     background-color: #312783;
     border: 2px solid white;
     font-size: 10px;
 }
 
-.navbar-nav .dropdown-menu a{
+.navbar-nav .dropdown-menu a {
     font-size: 5px;
 }
 
 
 
-.main .container .foto .logo svg{
+.main .container .foto .logo svg {
     width: 13%;
     margin: 2% 2%;
 }
@@ -94,14 +96,14 @@ nav svg{
 
 
 
-.history .container{
+.history .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.history .container .heading h2{
+.history .container .heading h2 {
     font-size: 22px;
     font-family: 'stetb' !important;
     text-align: center;
@@ -109,21 +111,21 @@ nav svg{
     margin-top: 15%;
 }
 
-.history .container .text{
+.history .container .text {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.history .container .text p{
+.history .container .text p {
     font-size: 14px;
     margin-top: 1%;
     font-family: 'stetm';
     text-align: center;
 }
 
-.history .container .text .link{
+.history .container .text .link {
     background-color: #312783;
     color: white;
     font-size: 13px;
@@ -139,33 +141,33 @@ nav svg{
     padding-top: 1.5%;
 }
 
-.history .container .text .link:hover{
+.history .container .text .link:hover {
     background-color: white;
     color: #312783;
     border: 3px solid #312783;
     transition: 0.5s;
-    
+
 }
 
-.history .container .text h5{
+.history .container .text h5 {
     font-size: 14px !important;
     text-align: center;
 }
 
-.history .container .text .obj{
+.history .container .text .obj {
     display: flex;
     justify-content: center;
     align-items: center;
     align-items: baseline;
 }
 
-.history .container .text .obj p{
+.history .container .text .obj p {
     font-size: 14px !important;
     text-align: center;
     font-family: 'stet';
 }
 
-.history .container .text .obj a{
+.history .container .text .obj a {
     font-size: 14px !important;
     text-align: center;
     font-family: 'stet';
@@ -175,7 +177,7 @@ nav svg{
     transition: 0.5s;
 }
 
-.history .container .text .obj a:hover{
+.history .container .text .obj a:hover {
     transition: 0.5s;
     text-decoration: underline;
 }
@@ -187,28 +189,28 @@ nav svg{
 
 
 
-footer{
+footer {
     background-color: #312783;
 }
 
-footer .foot .container{
+footer .foot .container {
     display: flex;
     flex-direction: row;
 }
 
-footer .foot .container .logo img{
+footer .foot .container .logo img {
     width: 20%;
     fill: white !important;
 }
 
-footer .foot .container .text{
+footer .foot .container .text {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 49%;
 }
 
-footer .foot .container .logo{
+footer .foot .container .logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -216,9 +218,77 @@ footer .foot .container .logo{
     margin: 1% 0;
 }
 
-footer .foot .container .text p{
+footer .foot .container .text p {
     font-size: 10px;
     color: white;
     margin: 0;
     letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .container {
+        width: 960px;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 740px;
+    }
+
+    .main .container .foto .logo svg {
+        width: 20%;
+    }
+
+    footer .foot .container .logo img{
+        width: 30%;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+    .container {
+        width: 98%;
+    }
+
+    .main .container .foto .logo svg {
+        width: 20%;
+    }
+
+    .history .container .text .link {
+        padding-top: 2.5%;
+    }
+
+    footer .foot .container .logo img {
+        width: 35%;
+    }
+
+    .navbar-brand {
+        font-size: 12px !important;
+    }
+
+    nav svg {
+        width: 10%;
+    }
+
+    .navbar .container button svg {
+        width: 100%;
+    }
+
+
 }
