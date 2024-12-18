@@ -96,91 +96,100 @@ nav svg {
 
 
 
-.history .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 
-.history .container .heading h2 {
+
+.employees .container .heading h2 {
+    text-align: center;
     font-size: 22px;
-    font-family: 'stetb' !important;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    font-family: 'stetb';
+}
+
+.employees .container .myschool h3{
+    font-size: 16px;
+    font-family: 'stetm';
     text-align: center;
-    margin-bottom: 5%;
-    margin-top: 15%;
 }
 
-.history .container .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.history .container .text p {
+.employees .container .myschool a{
     font-size: 14px;
-    margin-top: 1%;
-    font-family: 'stetm';
-    text-align: center;
-}
-
-.history .container .text .link {
-    background-color: #312783;
-    color: white;
-    font-size: 13px;
-    width: 20%;
-    height: 40px;
-    border-radius: 20px;
-    border: none;
-    font-family: 'stetm';
-    transition: 0.5s;
-    margin-bottom: 2%;
-    text-align: center;
     text-decoration: none;
-    padding-top: 1.5%;
-}
-
-.history .container .text .link:hover {
-    background-color: white;
-    color: #312783;
-    border: 3px solid #312783;
-    transition: 0.5s;
-
-}
-
-.history .container .text h5 {
-    font-size: 14px !important;
-    text-align: center;
-}
-
-.history .container .text .obj {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-items: baseline;
-}
-
-.history .container .text .obj p {
-    font-size: 14px !important;
-    text-align: center;
-    font-family: 'stet';
-}
-
-.history .container .text .obj a {
-    font-size: 14px !important;
-    text-align: center;
-    font-family: 'stet';
     color: black;
-    text-decoration: none;
-    margin-left: 5px;
     transition: 0.5s;
 }
 
-.history .container .text .obj a:hover {
+.employees .container .myschool a:hover{
+    font-size: 14px;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.employees .container .diary .link{
+    font-size: 16px;
+    font-family: 'stetm';
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.employees .container{
+    text-align: center;
+}
+
+.employees .container .diary .link:hover{
     transition: 0.5s;
     text-decoration: underline;
 }
+
+.employees .container .diary .prost{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    font-size: 14px;
+}
+
+.employees .container .diary .prost:hover{
+    font-size: 14px;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.employees .container .vk{
+    margin-bottom: 2%;
+}
+
+.employees .container .vk h3{
+    font-size: 16px;
+    font-family: 'stetm';
+    text-align: center;
+    color: #000;
+}
+
+.employees .container .vk p{
+    font-size: 14px;
+}
+
+.employees .container .vk img{
+    width: 50%;
+    margin: 0.5% 0;
+}
+
+.employees .container .vk a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    font-size: 14px;
+}
+
+.employees .container .vk a:hover{
+    font-size: 14px;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+
 
 
 
@@ -228,14 +237,13 @@ footer .foot .container .text p {
 
 
 
-
-
-
-
-
 @media (max-width: 992px) {
     .container {
         width: 960px;
+    }
+
+    .employees .container .vk img{
+        width: 70%;
     }
 }
 
@@ -274,20 +282,8 @@ footer .foot .container .text p {
         width: 20%;
     }
 
-    .history .container .text .link {
-        padding-top: 2.5%;
-    }
-
-    .history .container .heading h2{
-        font-size: 19px;
-    }
-
-    .history .container .text p{
-        font-size: 12px;
-    }
-
-    .history .container .text h5{
-        font-size: 12px;
+    .main{
+        height: 300px;
     }
 
     footer .foot .container .logo img {
@@ -302,6 +298,10 @@ footer .foot .container .text p {
         width: 10%;
     }
 
+    .employees .container .vk img{
+        width: 80% !important;
+    }
+
     .navbar .container button svg {
         width: 100%;
     }
@@ -310,8 +310,40 @@ footer .foot .container .text p {
         font-size: 8px;
     }
 
-    .main{
-        height: 300px;
+    .employees .container .heading h2{
+        font-size: 19px;
+    }
+
+    .employees .container a{
+        font-size: 12px;
+    }
+
+    .employees .container .myschool h3{
+        font-size: 14px;
+    }
+
+    .employees .container .myschool a{
+        font-size: 12px;
+    }
+
+    .employees .container .diary .link{
+        font-size: 14px;
+    }
+
+    .employees .container .diary .prost{
+        font-size: 12px;
+    }
+
+    .employees .container .vk h3{
+        font-size: 14px;
+    }
+
+    .employees .container .vk p{
+        font-size: 12px;
+    }
+
+    .employees .container .vk a{
+        font-size: 12px;
     }
 
 

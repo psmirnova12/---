@@ -96,90 +96,50 @@ nav svg {
 
 
 
-.history .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 
-.history .container .heading h2 {
+
+.club .container .heading h2 {
+    text-align: center;
     font-size: 22px;
-    font-family: 'stetb' !important;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    font-family: 'stetb';
+}
+
+.club .container h3{
+    font-size: 16px;
+    font-family: 'stetm';
     text-align: center;
-    margin-bottom: 5%;
-    margin-top: 15%;
 }
 
-.history .container .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.club .container p{
+    font-size: 12px;
+    margin-bottom: -1%;
+    color: #696969;
 }
 
-.history .container .text p {
+.club .container h5 {
     font-size: 14px;
-    margin-top: 1%;
-    font-family: 'stetm';
-    text-align: center;
-}
-
-.history .container .text .link {
-    background-color: #312783;
-    color: white;
-    font-size: 13px;
-    width: 20%;
-    height: 40px;
-    border-radius: 20px;
-    border: none;
-    font-family: 'stetm';
-    transition: 0.5s;
-    margin-bottom: 2%;
-    text-align: center;
-    text-decoration: none;
-    padding-top: 1.5%;
-}
-
-.history .container .text .link:hover {
-    background-color: white;
-    color: #312783;
-    border: 3px solid #312783;
-    transition: 0.5s;
-
-}
-
-.history .container .text h5 {
-    font-size: 14px !important;
-    text-align: center;
-}
-
-.history .container .text .obj {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-items: baseline;
-}
-
-.history .container .text .obj p {
-    font-size: 14px !important;
-    text-align: center;
-    font-family: 'stet';
-}
-
-.history .container .text .obj a {
-    font-size: 14px !important;
-    text-align: center;
-    font-family: 'stet';
     color: black;
     text-decoration: none;
-    margin-left: 5px;
+    margin-bottom: -1%;
+}
+
+.club .container a{
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
     transition: 0.5s;
 }
 
-.history .container .text .obj a:hover {
-    transition: 0.5s;
+.club .container a:hover {
     text-decoration: underline;
+    transition: 0.5s;
+    color: black;
+}
+
+.club .container .link{
+    margin-bottom: 1%;
 }
 
 
@@ -228,11 +188,6 @@ footer .foot .container .text p {
 
 
 
-
-
-
-
-
 @media (max-width: 992px) {
     .container {
         width: 960px;
@@ -274,22 +229,6 @@ footer .foot .container .text p {
         width: 20%;
     }
 
-    .history .container .text .link {
-        padding-top: 2.5%;
-    }
-
-    .history .container .heading h2{
-        font-size: 19px;
-    }
-
-    .history .container .text p{
-        font-size: 12px;
-    }
-
-    .history .container .text h5{
-        font-size: 12px;
-    }
-
     footer .foot .container .logo img {
         width: 35%;
     }
@@ -310,8 +249,24 @@ footer .foot .container .text p {
         font-size: 8px;
     }
 
+    .club .container .heading h2{
+        font-size: 19px;
+    }
+
+    .club .container a{
+        font-size: 12px;
+    }
+
     .main{
         height: 300px;
+    }
+
+    .club .container h3{
+        font-size: 14px;
+    }
+
+    .club .container h5{
+        font-size: 12px;
     }
 
 

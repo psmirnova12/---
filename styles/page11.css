@@ -246,6 +246,10 @@ footer .foot .container .text p {
         align-items: start;
     }
 
+    .main{
+        height: 350px;
+    }
+
    
 }
 
@@ -305,6 +309,10 @@ footer .foot .container .text p {
 
     .admin .container h2{
         font-size: 16px;
+    }
+
+    .main{
+        height: 300px;
     }
 
     

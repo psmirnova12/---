@@ -195,6 +195,10 @@ footer .foot .container .text p {
     footer .foot .container .logo img{
         width: 30%;
     }
+
+    .main{
+        height: 350px;
+    }
 }
 
 
@@ -237,6 +241,10 @@ footer .foot .container .text p {
 
     footer .foot .container .text p{
         font-size: 8px;
+    }
+
+    .main{
+        height: 300px;
     }
 
 
