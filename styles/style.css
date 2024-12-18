@@ -229,6 +229,18 @@ footer .foot .container .text p{
         width: 20%;
     }
 
+    .glav .container .text h2{
+        font-size: 19px;
+    }
+
+    .glav .container .text h3{
+        font-size: 16px;
+    }
+
+    .glav .container .text p{
+        font-size: 12px;
+    }
+
     footer .foot .container .logo img{
         width: 35%;
     }
@@ -244,5 +256,10 @@ footer .foot .container .text p{
     .navbar .container button svg{
         width: 100%;
     }
+
+    footer .foot .container .text p{
+        font-size: 8px;
+    }
+
 
 }

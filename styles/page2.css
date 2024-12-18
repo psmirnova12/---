@@ -201,6 +201,8 @@ footer .foot .container .text p{
         width: 35%;
     }
 
+    
+
     .navbar-brand{
         font-size: 12px !important;
     }
@@ -212,6 +214,20 @@ footer .foot .container .text p{
     .navbar .container button svg{
         width: 100%;
     }
+
+    .history .container .text p{
+        font-size: 12px !important;
+    }
+
+    .history .container .heading h2{
+        font-size: 19px;
+        margin-top: 10%;
+    }
+
+    footer .foot .container .text p{
+        font-size: 8px;
+    }
+
 
     
 }

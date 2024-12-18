@@ -232,5 +232,18 @@ footer .foot .container .text p {
         width: 100%;
     }
 
+    footer .foot .container .text p{
+        font-size: 8px;
+    }
+
+    .tex .container .heading h2{
+        font-size: 19px;
+    }
+
+    .tex .container a{
+        font-size: 12px;
+    }
+
+
 
 }
