@@ -1,0 +1,510 @@
+@import url("../font.css");
+
+* {
+    font-family: "stet";
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'stet';
+    font-size: 30px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav a {
+    font-size: 15px !important;
+}
+
+nav .offcanvas-body a {
+    font-size: 15px !important;
+    color: white;
+}
+
+nav svg {
+    fill: white;
+    margin-left: 2%;
+}
+
+.navbar .container button {
+    fill: white;
+    border: 1px solid white;
+    color: white;
+    background: none;
+    display: flex;
+
+
+}
+
+.navbar .container button svg {
+    fill: white;
+
+
+}
+
+.navbar-toggler-icon {
+    background-image: none;
+}
+
+.offcanvas-body {
+    background-color: #312783 !important;
+}
+
+.offcanvas-header {
+    background-color: #312783 !important;
+}
+
+.bg-dark {
+    background-color: #312783 !important;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #312783;
+    border: 2px solid white;
+    font-size: 10px;
+}
+
+.navbar-nav .dropdown-menu a {
+    font-size: 5px;
+}
+
+
+
+.main .container .foto .logo svg {
+    width: 13%;
+    margin: 2% 2%;
+}
+
+.main {
+    background-image: url(../img/XXL_height.webp);
+    background-size: cover;
+    height: 450px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+.parents .container .heading h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    font-family: 'stetb';
+}
+
+.parents .container .link h3 {
+    font-size: 16px;
+    font-family: 'stetm';
+    text-align: center;
+}
+
+.parents .container .z {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: 'stetm';
+}
+
+.parents .container a {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.parents .container a:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.parents .container .link{
+    margin-bottom: 2%;
+}
+
+.parents .container .link p {
+    font-size: 12px;
+    color: #696969;
+}
+
+.parents .container .x {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+    color: #4e4e4e;
+}
+
+.parents .container .diary .link{
+    font-size: 16px;
+    font-family: 'stetm';
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+
+.parents .container .diary .link:hover{
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+.parents .container .diary .prost{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    font-size: 14px;
+}
+
+.parents .container .diary .prost:hover{
+    font-size: 14px;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.parents .container .diary{
+    text-align: center;
+}
+
+.parents .container .txt p{
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+
+}
+
+.parents .container .txt a{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.parents .container .help h3{
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.parents .container .help p{
+    font-size: 14px;
+    margin-bottom: -1px;
+    text-align: center;
+}
+
+.parents .container .help .org{
+    margin-top: 1%;
+}
+
+.parents .container .help .org .nuj{
+    text-align: center;
+}
+
+.parents .container .help .org .nuj{
+    margin-bottom: 1%;
+}
+
+.parents .container .dan h4{
+    font-size: 15px;
+    text-align: center;
+}
+
+.parents .container .card{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+    border: none;
+    margin-top: 2%;
+}
+
+.parents .container .card .foto{
+    width: 40%;
+    display: flex;justify-content: center;
+}
+
+.parents .container .card .foto img{
+    width: 53%;
+}
+
+.parents .container .card .text{
+    width: 59%;
+    text-align: left;
+}
+
+.parents .container .card .text p{
+    text-align: start;
+}
+
+.parents .container .card1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+    
+}
+
+.parents .container .card1 .foto{
+    width: 40%;
+    display: flex;justify-content: center;
+}
+
+.parents .container .card1 .foto img{
+    width: 50%;
+}
+
+.parents .container .card1 .text{
+    width: 59%;
+    text-align: left;
+}
+
+.parents .container .card1 .text p{
+    text-align: start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #312783;
+}
+
+footer .foot .container {
+    display: flex;
+    flex-direction: row;
+}
+
+footer .foot .container .logo img {
+    width: 20%;
+    fill: white !important;
+}
+
+footer .foot .container .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+}
+
+footer .foot .container .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    margin: 1% 0;
+}
+
+footer .foot .container .text p {
+    font-size: 10px;
+    color: white;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+
+
+
+@media (max-width: 992px) {
+    .container {
+        width: 960px;
+    }
+
+    .parents .container .card .foto img{
+        width: 90%;
+    }
+    .parents .container .card1 .foto img{
+        width: 90%;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 740px;
+    }
+
+    .main .container .foto .logo svg {
+        width: 20%;
+    }
+
+    footer .foot .container .logo img{
+        width: 30%;
+    }
+
+    .main{
+        height: 350px;
+    }
+
+    .parents .container .card .text p{
+        font-size: 12px;
+    }
+
+    .parents .container .card1 .text p{
+        font-size: 12px;
+    }
+    
+    .parents .container .card .text a{
+        font-size: 12px;
+    }
+
+    .parents .container .card .foto{
+        width: 35%;
+        margin-right: 2%;
+    }
+
+    .parents .container .card1 .foto{
+        width: 35%;
+        margin-right: 2%;
+    }
+
+    .parents .container .card .foto img{
+        width: 100%;
+   }
+
+    .parents .container .card1 .foto img{
+        width: 100%;
+
+    }
+
+    .parents .container .heading h2{
+        font-size: 19px;
+    }
+
+    .parents .container .z{
+        font-size: 14px;
+    }
+
+    .parents .container .link h3{
+        font-size: 14px;
+    }
+
+    .parents .container a{
+        font-size: 12px;
+    }
+
+    .parents .container .diary .link{
+        font-size: 14px;
+    }
+
+    .parents .container .diary .prost{
+        font-size: 12px;
+    }
+
+    .parents .container .txt p{
+        font-size: 12px;
+    }
+
+    .parents .container .txt a{
+        font-size: 12px;
+    }
+
+    .parents .container .txt a{
+        font-size: 14px;
+    }
+
+    .parents .container .help p{
+        font-size: 12px;
+    }
+
+    .parents .container .help h3{
+        font-size: 14px;
+    }
+
+    .parents .container .dan h4{
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+    .container {
+        width: 98%;
+    }
+
+    .main .container .foto .logo svg {
+        width: 20%;
+    }
+
+    footer .foot .container .logo img {
+        width: 35%;
+    }
+
+    .navbar-brand {
+        font-size: 12px !important;
+    }
+
+    nav svg {
+        width: 10%;
+    }
+
+    .navbar .container button svg {
+        width: 100%;
+    }
+
+    footer .foot .container .text p{
+        font-size: 8px;
+    }
+
+    .parents .container .heading h2{
+        font-size: 19px;
+    }
+
+    .parents .container a{
+        font-size: 12px;
+    }
+
+    .main{
+        height: 300px;
+    }
+
+    .parents .container .card1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .parents .container .card1 .text{
+        width: 90%;
+    }
+
+    .parents .container .card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .parents .container .card .text{
+        width: 90%;
+    }
+
+
+
+}
