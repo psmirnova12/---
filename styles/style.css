@@ -13,7 +13,7 @@ p{
     font-size: 30px;
 }
 
-.container{
+.сontainer{
     width: 1200px;
     margin: 0 auto;
 }
@@ -144,6 +144,27 @@ nav svg{
 .glav .container .foto img{
     width: 80%;
 }
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    background-color: #312783 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

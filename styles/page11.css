@@ -148,6 +148,28 @@ nav svg {
     width: 70%;
  }
 
+.knop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    background-color: #312783 !important;
+    color: white;
+    border: 3px solid #312783;
+}
+
+.btn:hover{
+    background-color: white !important;
+    color: #312783;
+    border: 3px solid #312783;
+}
+
+button, input, optgroup, select, textarea{
+    margin-bottom: 2%;
+}
+
 
 
 
