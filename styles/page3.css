@@ -182,6 +182,76 @@ nav svg {
     text-decoration: underline;
 }
 
+.banner {
+    border: 3px solid #312783;
+    width: 468px;
+    height: 60px;
+    text-align: left;
+    border-radius: 10px;
+    display: flex;
+}
+
+.banner .mar{
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .mar marquee{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    height: 60px;
+}
+
+.banner svg {
+    right: 0;
+    fill: #312783;
+}
+
+.banner .logo{
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    margin-left: 1%;
+}
+
+.banner .text{
+    width: 78%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: #312783;
+    margin-left: 13%;
+}
+
+.banner .text h5{
+    font-size: 14px;
+    margin: 0;
+}
+
+.nuj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.banner .text{
+    animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
+
+
+
+
+
 
 
 
@@ -223,6 +293,7 @@ footer .foot .container .text p {
     color: white;
     margin: 0;
     letter-spacing: 1px;
+    text-decoration: none;
 }
 
 
@@ -312,6 +383,14 @@ footer .foot .container .text p {
 
     .main{
         height: 300px;
+    }
+    
+    .banner{
+        width: 100%;
+    }
+
+    .history .container .text .obj a{
+        font-size: 11px !important;
     }
 
 

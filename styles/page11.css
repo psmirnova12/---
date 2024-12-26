@@ -106,7 +106,7 @@ nav svg {
     font-family: 'stetb';
 }
 
-.admin .container h2{
+.admin .container h2 {
     font-size: 18px;
     text-align: center;
 
@@ -114,57 +114,143 @@ nav svg {
 
 }
 
-.admin .container .text h4{
+.admin .container .text h4 {
     font-size: 16px;
 }
 
-.admin .container .text  h3{
+.admin .container .text h3 {
     font-size: 16px;
 }
 
-.admin .container .text  p{
+.admin .container .text p {
     font-size: 14px;
 }
 
-.admin .container .card{
+.admin .container .card {
     display: flex;
     flex-direction: row;
     border: none;
     margin-bottom: 2%;
 }
 
-.admin .container .card .foto{
-   width: 25%;
-   display: flex;
+.admin .container .card .foto {
+    width: 25%;
+    display: flex;
 
-   justify-content: center;
+    justify-content: center;
 }
 
-.admin .container .card .foto img{
+.admin .container .card .foto img {
     width: 82%;
 }
 
-.admin .container .card .text{
+.admin .container .card .text {
     width: 70%;
- }
+}
 
-.knop{
+.knop {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 2%;
 }
 
-.btn{
+.btn {
     background-color: #312783 !important;
     color: white;
     border: 3px solid #312783;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: white !important;
     color: #312783;
     border: 3px solid #312783;
+}
+
+.check {
+    display: flex;
+    flex-direction: row;
+}
+
+.check .ch {
+    width: 5%;
+}
+
+.check .lb {
+    width: 95%;
+}
+
+.modal-body input {
+    margin-bottom: 2%;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding-left: 1%;
+    width: 50%;
+}
+
+.banner {
+    border: 3px solid #312783;
+    width: 728px;
+    
+    text-align: left;
+    border-radius: 10px;
+    display: flex;
+}
+
+.banner .mar{
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .mar marquee{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+
+.banner svg {
+    right: 0;
+    fill: #312783;
+}
+
+.banner .logo{
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    margin-left: 1%;
+}
+
+.banner .text{
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: #312783;
+    margin-left: 13%;
+}
+
+.banner .text h5{
+    font-size: 20px;
+    margin: 0;
+}
+
+.nuj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+{
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
 }
 
 
@@ -222,16 +308,16 @@ footer .foot .container .text p {
         width: 960px;
     }
 
-    .admin .container .card .foto img{
+    .admin .container .card .foto img {
         width: 100%;
     }
 
-    .admin .container .card .text{
+    .admin .container .card .text {
         margin-left: 2%;
         width: 68%;
     }
 
-    .admin .container .card .foto{
+    .admin .container .card .foto {
         width: 32%;
     }
 }
@@ -248,34 +334,42 @@ footer .foot .container .text p {
         width: 20%;
     }
 
-    footer .foot .container .logo img{
+    footer .foot .container .logo img {
         width: 30%;
     }
 
-    .admin .container .card .foto img{
+    .admin .container .card .foto img {
         width: 100%;
     }
 
-    .admin .container .card .text{
+    .admin .container .card .text {
         margin-left: 2%;
         width: 69%;
     }
 
-    .admin .container .card .foto{
+    .admin .container .card .foto {
         width: 31%;
         justify-content: start;
         align-items: start;
     }
 
-    .main{
+    .main {
         height: 350px;
     }
 
-    .knop button{
+    .knop button {
         font-size: 14px;
     }
 
-   
+    .banner .text h5{
+        font-size: 18px;
+    }
+
+    .banner .logo{
+        width: 25%;
+    }
+
+
 }
 
 
@@ -308,39 +402,59 @@ footer .foot .container .text p {
         width: 100%;
     }
 
-    footer .foot .container .text p{
+    footer .foot .container .text p {
         font-size: 8px;
     }
 
-    .admin .container .heading h2{
+    .admin .container .heading h2 {
         font-size: 19px;
     }
 
-    .admin .container a{
+    .admin .container a {
         font-size: 12px;
     }
 
-    .admin .container .text h4{
+    .admin .container .text h4 {
         font-size: 14px;
     }
 
-    .admin .container .text p{
+    .admin .container .text p {
         font-size: 12px;
     }
 
-    .admin .container .text h3{
+    .admin .container .text h3 {
         font-size: 14px;
     }
 
-    .admin .container h2{
+    .admin .container h2 {
         font-size: 16px;
     }
 
-    .main{
+    .main {
         height: 300px;
     }
 
-    
+    .banner .text h5{
+        font-size: 11px;
+    }
+
+    .banner .logo{
+        width: 20%;
+    }
+
+    .banner .mar svg{
+        width: 30px;
+        height: 30px;
+    }
+
+    .banner{
+        height: 50px;
+    }
+
+    .banner .mar marquee{
+        height: 50px !important;
+    }
+
 
 
 }
